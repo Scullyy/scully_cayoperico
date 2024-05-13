@@ -11,6 +11,7 @@ For support join my discord here: https://discord.gg/scully
 
 # Requirements
 - [ox_lib](https://github.com/overextended/ox_lib/releases)
+- Gamebuild 2189 or above.
 
 # Features
 - Both San Andreas and Cayo Perico are enabled alongside one another.
