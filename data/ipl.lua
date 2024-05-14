@@ -69,7 +69,6 @@ return {
     'h4_mph4_terrain_06',
     'h4_mph4_terrain_06_strm_0',
     'h4_mph4_terrain_lod',
-    'h4_boatblockers',
     'h4_islandx',
     'h4_islandx_disc_strandedshark',
     'h4_islandx_disc_strandedshark_lod',
