@@ -90,8 +90,6 @@ return {
     'h4_beach_props_slod',
     'h4_beach_slod',
     'h4_islandairstrip',
-    'h4_islandairstrip_doorsclosed',
-    'h4_islandairstrip_doorsclosed_lod',
     'h4_islandairstrip_doorsopen',
     'h4_islandairstrip_doorsopen_lod',
     'h4_islandairstrip_hangar_props',
