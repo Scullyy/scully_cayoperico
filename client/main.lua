@@ -34,14 +34,22 @@ end
 local function enableRadioStations(bool)
     if not config.radioStations.disable then return end
 
-    if not config.radioStations.showNoSignal then
+    local showNoSignal = config.radioStations.showNoSignal
+
+    if not showNoSignal then
         SetAudioFlag('PlayerOnDLCHeist4Island', not bool)
         return
     end
 
-    for i = 1, #config.radioStations.stations do
-        SetRadioStationIsVisible(config.radioStations.stations[i], bool)
+    for name, disable in pairs(config.radioStations.stations) do
+        if disable then
+            SetRadioStationIsVisible(name, bool)
+        else
+            showNoSignal = false
+        end
     end
+
+    if not showNoSignal then return end
 
     local text = bool and locale('radio_off') or locale('no_signal')
 
