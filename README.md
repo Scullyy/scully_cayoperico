@@ -24,17 +24,17 @@ For support join my discord here: https://discord.gg/scully
 - Can check if a player is on Cayo Perico using the `onCayoPerico` statebag.
 
 # FAQ <a id="faq"></a>
-**How do I close the hanger gates?**
+**How do I close the hanger gates?**<br/>
 Navigate to `data/ipl.lua` and replace both the `h4_islandairstrip_doorsopen` and `h4_islandairstrip_doorsopen_lod` IPL's with `h4_islandairstrip_doorsclosed` and `h4_islandairstrip_doorsclosed_lod`.
 
-**How do I enable the anti-aircraft guns?**
+**How do I enable the anti-aircraft guns?**<br/>
 Navigate to `data/ipl.lua` and add both the `h4_aa_guns` and `h4_aa_guns_lod` IPL's to the table.
 
-**How do I enable the boat blockers?**
+**How do I enable the boat blockers?**<br/>
 Navigate to `data/ipl.lua` and add the `h4_boatblockers` IPL to the table, I advise not doing this though as this will prevent boats from docking in most areas.
 
-**How do I enable the sea gate?**
+**How do I enable the sea gate?**<br/>
 Navigate to `data/ipl.lua` and add the `h4_underwater_gate_closed` IPL to the table.
 
-**How do I enable the sea mines?**
+**How do I enable the sea mines?**<br/>
 Navigate to `data/ipl.lua` and add the `h4_islandx_sea_mines` IPL to the table.
