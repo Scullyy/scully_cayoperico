@@ -6,7 +6,7 @@ this_is_a_map 'yes'
 
 name 'scully_cayoperico'
 author 'https://discord.gg/scully'
-version '1.0.1'
+version '1.0.2'
 license 'LGPL-3.0-or-later'
 repository 'https://github.com/Scullyy/scully_cayoperico'
 description 'Introducing a seamless travel solution for all adventurers: embark on exhilarating journeys to and from the captivating shores of Cayo Perico with ease!'
