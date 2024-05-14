@@ -300,7 +300,6 @@ return {
     'h4_sw_ipl_09',
     'h4_sw_ipl_09_lod',
     'h4_sw_ipl_09_slod',
-    'h4_underwater_gate_closed',
     'h4_islandx_placement_01',
     'h4_islandx_placement_02',
     'h4_islandx_placement_03',
